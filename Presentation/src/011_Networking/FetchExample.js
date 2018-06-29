@@ -1,5 +1,5 @@
 import React from 'react';
-import { FlatList, Text, View  } from 'react-native';
+import { FlatList, ActivityIndicator, Text, View  } from 'react-native';
 
 export default class FetchExample extends React.Component {
 

@@ -30,37 +30,68 @@ import { SectionListBasics } from './src/010_UsingListViews';
 import { FetchExample } from './src/011_Networking';
 
 export default class App extends Component {
+
   render() {
     return (
-      <View>
-        <HelloWorldApp />
+      <HelloWorldApp />
+    )
 
-        <Bananas />
-        <LotsOfGreetings />
+    return (
+      <Bananas />
+    )
+    return (
+      <LotsOfGreetings />
+    )
 
-        <Blink />
+    return (
+      <Blink />
+    )
 
-        <LotsOfStyles />
+    return (
+      <LotsOfStyles />
+    )
 
-        <FixedDimensionsBasics />
-        <FlexDimensionsBasics />
+    return (
+      <FixedDimensionsBasics />
+    )
+    return (
+      <FlexDimensionsBasics />
+    )
 
-        <FlexDirectionBasics />
-        <JustifyContentBasics />
-        <AlignItemsBasics />
+    return (
+      <FlexDirectionBasics />
+    )
+    return (
+      <JustifyContentBasics />
+    )
+    return (
+      <AlignItemsBasics />
+    )
 
-        <PizzaTranslator />
+    return (
+      <PizzaTranslator />
+    )
 
-        <ButtonBasics />
-        <Touchables />
+    return (
+      <ButtonBasics />
+    )
+    return (
+      <Touchables />
+    )
 
-        <IScrolledDownAndWhatHappenedNextShockedMe />
+    return (
+      <IScrolledDownAndWhatHappenedNextShockedMe />
+    )
 
-        <FlatListBasics />
-        <SectionListBasics />
+    return (
+      <FlatListBasics />
+    )
+    return (
+      <SectionListBasics />
+    )
 
-        <FetchExample />
-      </View>
-    );
+    return (
+      <FetchExample />
+    )
   }
 }
