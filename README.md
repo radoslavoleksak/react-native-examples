@@ -32,3 +32,11 @@ Tento command je namiesto tohto:
 ```
 $ create-react-native-app $destName
 ```
+
+### Troubleshooting
+
+#### Port already in use
+```
+$ sudo lsof -i :19000
+$ kill -9 <PID>
+```
