@@ -29,69 +29,75 @@ import { SectionListBasics } from './src/010_UsingListViews';
 
 import { FetchExample } from './src/011_Networking';
 
+import { ChatRoom } from './src/099_Bonus';
+
 export default class App extends Component {
 
   render() {
-    return (
-      <HelloWorldApp />
-    )
+    // return (
+    //   <HelloWorldApp />
+    // )
 
-    return (
-      <Bananas />
-    )
-    return (
-      <LotsOfGreetings />
-    )
+    // return (
+    //   <Bananas />
+    // )
+    // return (
+    //   <LotsOfGreetings />
+    // )
 
-    return (
-      <Blink />
-    )
+    // return (
+    //   <Blink />
+    // )
 
-    return (
-      <LotsOfStyles />
-    )
+    // return (
+    //   <LotsOfStyles />
+    // )
 
-    return (
-      <FixedDimensionsBasics />
-    )
-    return (
-      <FlexDimensionsBasics />
-    )
+    // return (
+    //   <FixedDimensionsBasics />
+    // )
+    // return (
+    //   <FlexDimensionsBasics />
+    // )
 
-    return (
-      <FlexDirectionBasics />
-    )
-    return (
-      <JustifyContentBasics />
-    )
-    return (
-      <AlignItemsBasics />
-    )
+    // return (
+    //   <FlexDirectionBasics />
+    // )
+    // return (
+    //   <JustifyContentBasics />
+    // )
+    // return (
+    //   <AlignItemsBasics />
+    // )
 
-    return (
-      <PizzaTranslator />
-    )
+    // return (
+    //   <PizzaTranslator />
+    // )
 
-    return (
-      <ButtonBasics />
-    )
-    return (
-      <Touchables />
-    )
+    // return (
+    //   <ButtonBasics />
+    // )
+    // return (
+    //   <Touchables />
+    // )
 
-    return (
-      <IScrolledDownAndWhatHappenedNextShockedMe />
-    )
+    // return (
+    //   <IScrolledDownAndWhatHappenedNextShockedMe />
+    // )
 
-    return (
-      <FlatListBasics />
-    )
-    return (
-      <SectionListBasics />
-    )
+    // return (
+    //   <FlatListBasics />
+    // )
+    // return (
+    //   <SectionListBasics />
+    // )
 
+    // return (
+    //   <FetchExample />
+    // )
+ 
     return (
-      <FetchExample />
+      <ChatRoom />
     )
   }
 }
