@@ -23,3 +23,12 @@ $ react-native init AwesomeProject
 $ cd AwesomeProject
 $ react-native run-ios # You can also run it directly from within Xcode or Nuclide
 ```
+
+### Copy project utility
+```
+$ ./copy-project.sh $sourceName $destName
+```
+Tento command je namiesto tohto:
+```
+$ create-react-native-app $destName
+```
