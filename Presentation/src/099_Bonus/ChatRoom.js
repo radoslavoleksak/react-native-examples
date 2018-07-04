@@ -15,7 +15,7 @@ export default class ChatRoom extends Component {
     }
     
     componentDidMount() {
-        this.ws = new WebSocket('ws://192.168.1.21:1337');
+        this.ws = new WebSocket('ws://192.168.43.91:1337');
 
         this.ws.onopen = () => {
             // connection opened
